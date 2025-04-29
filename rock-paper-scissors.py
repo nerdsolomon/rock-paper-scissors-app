@@ -9,11 +9,11 @@ scores = [0,'-',0]
 winners = ['RockScissors','PaperRock','ScissorsPaper']
 option = ('Rock', 'Paper', 'Scissors')
 
-rock_img = PhotoImage(file='PNGs/rock.png')
-paper_img = PhotoImage(file='PNGs/paper.png')
-scissors_img = PhotoImage(file='PNGs/scissors.png')
-play_img = PhotoImage(file='PNGs/play.png')
-quit_img = PhotoImage(file='PNGs/quit.png')
+rock_img = PhotoImage(file='assets/rock.png')
+paper_img = PhotoImage(file='assets/paper.png')
+scissors_img = PhotoImage(file='assets/scissors.png')
+play_img = PhotoImage(file='assets/play.png')
+quit_img = PhotoImage(file='assets/quit.png')
 
 def choose(item):
 	output.config(text ='')
